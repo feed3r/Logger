@@ -1,0 +1,8 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  group_id: "test_group"
+  topic: "test_topic"
+
+loki:
+  url: "http://test_loki_server/loki/api/v1/push"
+  job_name: "test_job"
